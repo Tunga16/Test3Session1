@@ -1,1 +1,14 @@
-
+Breakpoint 1, main () at p1original.c:28
+28  {
+(gdb) s
+30    input(&num1,&den1,&num2,&den2);
+(gdb) n
+enter the numerator 1 and 2,denominator 1 and 2
+n
+31    add(num1,den1,num2,den2,&num3,&den3);
+(gdb) n
+32    output(num1,den1,num2,den2,num3,den3);
+(gdb) n
+33    return 0;
+(gdb) Quit
+(gdb) 
